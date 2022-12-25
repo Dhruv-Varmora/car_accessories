@@ -396,11 +396,11 @@
 }
 
 .product-card {
-    height: 350px;
+    height: 400px;
     width: 250px;
     margin: 20px 0;
     position: relative;
-    border:1px solid rgba(0, 0, 0, 0.10) ;
+    border: 1px solid rgba(0, 0, 0, 0.10);
     cursor: pointer;
     margin-left: 30px;
 }
@@ -438,6 +438,46 @@
     transform: rotatey(0deg);
 }
 
+.product-card .view {
+    height: 50px;
+    width: auto;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    top: 250px;
+    left: 35px;
+    opacity: 0;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.product-card .view button {
+    border: none;
+    font-size: 17px;
+    padding: 13px;
+    background-color: #C70909;
+    color: #fff;
+    cursor: pointer;
+}
+
+.product-card .view button:hover {
+    background-color: rgb(148, 147, 147);
+}
+.product-card .view i{
+font-size: 24px;
+color: #000;
+}
+.product-card .view i:hover{
+    color: #C70909;
+}
+
+
+.product-card:hover .view {
+    opacity: 1;
+    top: 325px;
+}
+
 .product-card .new {
     background-color: red;
     color: #fff;
@@ -446,24 +486,27 @@
     top: 0;
     left: 212px;
 }
-.product-card .info{
+
+.product-card .info {
     height: 116px;
     width: 100%;
     padding-left: 10px;
 }
-.product-card .info .parts a{
+
+.product-card .info .parts a {
     text-decoration: none;
     font-size: 16px;
     color: #000;
 }
-.product-card .info .price{
+
+.product-card .info .price {
     margin-top: 10px;
     font-size: 20px;
     color: #C70909;
 }
-.product-card .info .price span{
+
+.product-card .info .price span {
     font-size: 17px;
     color: #262626;
     text-decoration: line-through;
 }
-
