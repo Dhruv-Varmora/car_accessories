@@ -263,13 +263,11 @@
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
-    position: relative;
+    /* position: relative; */
 }
 
 .bannerimg .banner1 {
-    position: absolute;
-    top: 0;
-    left: 35px;
+    margin: 20px;
     cursor: pointer;
 }
 
@@ -279,7 +277,6 @@
     position: relative;
     overflow: hidden;
     background-size: 100% 100%;
-
 }
 
 .bannerimg .a::before {
@@ -309,29 +306,16 @@
 .bannerimg .a:hover::after {
     top: 100%;
     left: -100%;
-
-
 }
 
 .bannerimg .a:hover::before {
     top: -100%;
     left: 100%;
-
 }
 
-.bannerimg .banner2 {
-    position: absolute;
-    top: 0;
-    left: 35%;
-    cursor: pointer;
-}
 
-.bannerimg .banner3 {
-    position: absolute;
-    top: 0;
-    left: 68%;
-    cursor: pointer;
-}
+
+
 
 /* bannerimg end */
 
@@ -464,11 +448,13 @@
 .product-card .view button:hover {
     background-color: rgb(148, 147, 147);
 }
-.product-card .view i{
-font-size: 24px;
-color: #000;
+
+.product-card .view i {
+    font-size: 24px;
+    color: #000;
 }
-.product-card .view i:hover{
+
+.product-card .view i:hover {
     color: #C70909;
 }
 
@@ -509,4 +495,289 @@ color: #000;
     font-size: 17px;
     color: #262626;
     text-decoration: line-through;
+}
+
+/* product-card end */
+
+.banner4-5 {
+    height: 300px;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 35px;
+}
+
+.banner4-5 .banner4 {
+    margin: 20px;
+    cursor: pointer;
+}
+
+.banner4-5 .B {
+    height: 240px;
+    width: 680px;
+    position: relative;
+    overflow: hidden;
+    background-size: 100% 100%;
+}
+
+.banner4-5 .B::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.1;
+    transition: 1s;
+}
+
+.banner4-5 .B::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.11;
+    transition: 1s;
+}
+
+.banner4-5 .B:hover::after {
+    top: 100%;
+    left: -100%;
+}
+
+.banner4-5 .B:hover::before {
+    top: -100%;
+    left: 100%;
+}
+
+.ONSALE1 {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 60px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.ONSALE1 h3 span {
+    font-size: 30px;
+}
+.ONSALE1 p{
+    position: absolute;
+    top: 12px;
+    left: 330px;
+}
+
+
+.ONSALE {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin-top: -20px;
+}
+
+
+.ONSALE .product-card {
+    height: 400px;
+    width: 250px;
+    margin: 20px 0;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.ONSALE .pc1 {
+    height: 400px;
+    width: 550px;
+    position: relative;
+
+}
+
+.pc2 {
+    position: absolute;
+    top: 30px;
+    left: 300px;
+}
+
+.pc3 {
+    margin-top: 20px;
+}
+
+.product-card .prd-img {
+    height: 210px;
+    width: 250px;
+    position: relative;
+}
+
+.product-card .prd-img .front,
+.back {
+    height: 210px;
+    width: 240px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+    transition: 1s;
+}
+
+.product-card .prd-img .front {
+    transform: rotatey(180deg);
+}
+
+.product-card .prd-img .back {
+    transform: rotatey(0deg);
+}
+
+.product-card .prd-img:hover .back {
+    transform: rotatey(180deg);
+}
+
+.product-card .prd-img:hover .front {
+    transform: rotatey(0deg);
+}
+
+.product-card .view {
+    height: 50px;
+    width: auto;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    top: 250px;
+    left: 35px;
+    opacity: 0;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.product-card .view button {
+    border: none;
+    font-size: 17px;
+    padding: 13px;
+    background-color: #C70909;
+    color: #fff;
+    cursor: pointer;
+}
+
+.product-card .view button:hover {
+    background-color: rgb(148, 147, 147);
+}
+
+.product-card .view i {
+    font-size: 24px;
+    color: #000;
+}
+
+.product-card .view i:hover {
+    color: #C70909;
+}
+
+
+.product-card:hover .view {
+    opacity: 1;
+    top: 325px;
+}
+
+.product-card .new {
+    background-color: red;
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    top: 0;
+    left: 212px;
+}
+
+.product-card .info {
+    height: 116px;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.product-card .info .parts a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+}
+
+.product-card .info .price {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #C70909;
+}
+
+.product-card .info .price span {
+    font-size: 17px;
+    color: #262626;
+    text-decoration: line-through;
+}
+
+.LATEST{
+    height: auto;
+    width: 100%;
+    display: flex;
+    position: relative;
+    padding-left: 40px;
+}
+
+.LATEST span{
+    font-size: 25px;
+    font-weight: bold;
+}
+.LATEST .text{
+    position: absolute;
+    top: 8px;
+    left: 250px;
+}
+
+.blog{
+    height: 500px;
+    width: 100%;
+    display: flex;
+}
+.blog1{
+    height: 500px;
+    width: 400px;
+    margin-top: 30px;
+    padding-left: 25px;
+    /* border: 1px solid black; */
+}
+.blog1 .text1{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.blog1 .text1:hover{
+    color: #C70909;
+    
+}
+.blog1 .text2{
+    margin-top: 10px;
+}
+.blog1 .text2 span{
+    color: #C70909;
+}
+.blog1 .text3{
+    margin-top: 20px;
+}
+.blog1 .text4{
+    margin-top: 20px;
+}
+.blog1 .text4:hover{
+    color: #C70909;
+}
+
+.brand{
+    height: 300px;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
 }
