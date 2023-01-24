@@ -7,646 +7,873 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/madie.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="/path/to/js/sidebar.js"></script>
+
 </head>
 
 <body>
-    <div class="header">
-        <div class="left">
-            <ul class="nav">
-                <li><a href="" class="menu">india <i class='fas fa-angle-down' style="font-size: 15px;"></i></a>
-                    <!-- <ul class="droupdown">
-                        <li><a href="">gujrati</a></li>
-                        <li><a href="">ENGLISH</a></li>
-                        <li><a href="">hindi</a></li>
+
+
+    <div class="side_bar" id="b2" style="background-color: aqua;">
+        <p class="xmark" id="b3"><i class="fa-solid fa-xmark"></i></p>
+        <p class="number1"><i class="fa-solid fa-phone-volume"></i>&nbsp;&nbsp;&nbsp;Call us: 0123456789</p>
+        <div class="side_1">
+            <ul class="mianmenu">
+                <li class="menu"><a href="#">ENGLISH</a>
+                    <!-- <ul class="dropdown">
+                        <li class="menu"><a href="#"> English </a></li>
+                        <li class="menu"><a href="#"> hindi&nbsp; </a></li>
+                        <li class="menu"><a href="#"> gujrati </a></li>
                     </ul> -->
                 </li>
             </ul>
-
-            <ul class="nav">
-                <li><a href="" class="menu">rueep <i class='fas fa-angle-down' style="font-size: 15px;"></i></a>
-                    <!-- <ul class="droupdown">
-                        <li><a href="">indian-rueep</a></li>
-                        <li><a href="">indian-rueep</a></li>
-                        <li><a href="">indian-rueep</a></li>
+            <ul class="mianmenu">
+                <li class="menu"><a href="#">USD</a>
+                    <!-- <ul class="dropdown">
+                        <li class="menu"><a href="#">Euro</a></li>
+                        <li class="menu"><a href="#">India Rupee</a></li>
+                        <li class="menu"><a href="#">India Rupee</a></li>
                     </ul> -->
                 </li>
             </ul>
         </div>
-        <div class="right">
-            <ul>
-                <li><a href="">REGISTER</a></li>
-                <li><a href=""> LOGIN</a></li>
-                <li><a href="">SHOPPING CART</a></li>
-                <li><a href="">CHECKOUT</a></li>
-            </ul>
-        </div>
-    </div>
-    <!-- header end -->
-    <div class="main">
-        <div class="logo">
-            <img src="images/logo.webp">
-        </div>
-        <div class="search">
-            <input type="text">
 
-        </div>
-        <div class="cart">
-            <a href=""><i class='far fa-heart' style='font-size:24px'></i></a>
-            <a href=""><i class='fas fa-shopping-bag' style='font-size:24px'></i>$152.00</a>
-        </div>
-    </div>
-    <!-- main end -->
-    <div class="navbar">
-        <div class="navleft">
-            <a href=""><i class="fa fa-bars" style="font-size:20px;"></i> ALL CATEGORIES</a>
-        </div>
-        <!-- <div class="navright">
-            <ul class="navmenu">
-                <li class="navmenu1"><a href="">HOME</a>
-                    <ul class="droupdown2">
-                        <li><a href="">Home Shop 1</a></li>
-                        <li><a href=""> Home Shop 2</a></li>
-                        <li><a href="">Home Shop 3</a></li>
-                        <li><a href="">Home Shop 4</a></li>
-                    </ul>
-                </li>
 
-                <li class="navmenu1"><a href="">SHOP</a>
-                    <div>
-                        <ul>
-                            <p> Shop Layouts</p>
-                            <li><a href="">Full Width</a></li>        
-                            <li><a href="">Full Width List</a></li>
-                            <li><a href="">Right Sidebar</a></li>
-                            <li><a href="">Right Sidebar List</a></li>
-                            <li><a href="">List View</a></li>
+    </div>
+    <div>
+        <div class="header">
+            <div class="language">
+                <ul class="mianmenu">
+                    <li class="menu"><a href="#">ENGLISH</a>
+                        <ul class="dropdown">
+                            <li class="menu"><a href="#"> English </a></li>
+                            <li class="menu"><a href="#"> hindi&nbsp; </a></li>
+                            <li class="menu"><a href="#"> gujrati </a></li>
                         </ul>
-                        <ul>
-                            <p>Other Pages</p>
-                            <li><a href="">Cart</a></li>
-                            <li><a href="">Wishlist</a></li>
-                            <li><a href=""> Checkout</a></li>
-                            <li><a href=""> My Account</a></li>
-                            <li><a href="">Error 404</a></li>
-                        <ul>
-                        <ul>
-                            <p>Product Types</p>
-                            <li><a href="">Product Details</a></li>
-                            <li><a href="">Product Sidebar</a></li>
-                            <li><a href="">Product Grouped</a></li>
-                            <li><a href="">Product Variable</a></li>
-                            <li><a href="">Product Countdown</a></li>
-                        <ul>
-                    </div>
-                </li>
 
+                    </li>
+                </ul>
+                <ul class="mianmenu">
+                    <li class="menu"><a href="#">USD</a>
+                        <ul class="dropdown">
+                            <li class="menu"><a href="#">Euro</a></li>
+                            <li class="menu"><a href="#">India Rupee</a></li>
+                            <li class="menu"><a href="#">India Rupee</a></li>
+                        </ul>
+                    </li>
 
-                <li class="navmenu1"><a href="">BLOG</a>
-                    <ul>
-                        <li><a href="">Blog Details</a></li>
-                        <li><a href="">Blog Fullwidth</a></li>
-                        <li><a href="">Blog Sidebar</a></li>
-                        <li><a href="">Blog No Sidebar</a></li>
-                    <ul>
-                </li>
-                <li class="navmenu1"><a href="">PAGES</a>
-                    <ul>
-                        <li><a href="">About Us</a></li>
-                        <li><a href="">Frequently Questions</a></li>
-                        <li><a href="">Contact</a></li>
-                        <li><a href="">Login</a></li>
-                        <li><a href="">Error 404</a></li>
-                        <li><a href="">Compare</a></li>
-                        <li><a href="">Privacy Policy</a></li>
-                        <li><a href="">Coming Soon</a></li>
-                    <ul>
-                </li>
-                <li class="navmenu1"><a href="">ABOUT US</a></li>
-                <li class="navmenu1"><a href="">CONTACT US</a></li>
+                </ul>
+            </div>
+            <div class="ragister">
+                <ul class="ragistermenu">
+                    <li><a href="#">REGISTER</a></li>
+                    <li><a href="#">LOGIN</a></li>
+                    <li><a href="#">SHOPPING</a></li>
+                    <li><a href="#">CART</a></li>
+                    <li><a href="#">CHECKOUT</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="logo">
+            <div class="logoimg">
+                <img src="images/logo.webp" height="40px" width="180px">
+            </div>
+            <div class="inputbut">
+                <div class="name">
+                    <p>all categories&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <button><i
+                                class='fas fa-angle-down'></i></button>
+                    </p>
+                </div>
+                <div class="inputdiv">
+                    <input type="text" placeholder="search product...">
+                </div>
+                <div class="Search">
+                    Search
+                </div>
+            </div>
+            <div class="fontawesome">
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="font2">
+                <p> <i class="fas fa-shopping-cart"></i>&nbsp; <span>| $152.00</span> </p>
+            </div>
+
+            <div class="bars" id="b1">
+                <i class='fas fa-bars'></i>
+            </div>
+        </div>
+
+        <!-- header end -->
+        <div class="navbar">
+            <div class="ALLCATEGORIES">
+                <p class="all"><i class='fas fa-bars'></i>&nbsp;&nbsp;&nbsp;&nbsp; ALL CATEGORIES</p>
+            </div>
+
+            <div class="nav">
+                <ul>
+                    <li class="menu"><a href="">HOME</a>
+                        <ul class="dropdownmenu">
+                            <li><a href="">HomePage1</a></li>
+                            <li><a href="">HomePage2</a></li>
+                            <li><a href="">HomePage3</a></li>
+                            <li><a href="">HomePage4</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu"><a href="">shop</a>
+                        <div class="xyz">
+                            <ul class="shop1">
+                                <h3>Shop Layouts</h3>
+                                <li class="shop2"><a href="">Full Width</a></li>
+                                <li class="shop2"><a href="">Full Width List</a></li>
+                                <li class="shop2"><a href="">Right Sidebar</a></li>
+                                <li class="shop2"><a href="">Right Sidebar List</a></li>
+                                <li class="shop2"><a href="">List View</a></li>
+                            </ul>
+
+                            <ul class="shop1">
+                                <h3>Other Pages</h3>
+                                <li class="shop2"><a href="">Cart</a></li>
+                                <li class="shop2"><a href="">Wishlist</a></li>
+                                <li class="shop2"><a href="">Checkout</a></li>
+                                <li class="shop2"><a href="">My Account</a></li>
+                                <li class="shop2"><a href="">Error 404</a></li>
+                            </ul>
+
+                            <ul class="shop1">
+                                <h3>Product Types</h3>
+                                <li class="shop2"><a href="">Product Details</a></li>
+                                <li class="shop2"><a href="">Product Sidebar</a></li>
+                                <li class="shop2"><a href="">Product Grouped</a></li>
+                                <li class="shop2"><a href="">Product Variable</a></li>
+                                <li class="shop2"><a href="">Product Countdown</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="menu"><a href="">BLOG</a>
+                        <ul class="dropdownmenu">
+                            <li><a href="">Blog Details</a></li>
+                            <li><a href="">Blog Fullwidth</a></li>
+                            <li><a href="">Blog Sidebar</a></li>
+                            <li><a href="">Blog No Sidebar</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu"><a href="">PAGES</a>
+                        <ul class="dropdownmenu">
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Frequently Questions</a></li>
+                            <li><a href="">Contact</a></li>
+                            <li><a href="">Login</a></li>
+                            <li><a href="">Error404</a></li>
+                            <li><a href="">Compare</a></li>
+                            <li><a href="">Privacy Policy</a></li>
+                            <li><a href="">Coming Soon</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu"><a href="">ABOUTUS</a>
+                    <li class="menu"><a href="">CONTACTUS</a>
+                </ul>
+                <p class="number"><i class="fa-solid fa-phone-volume"></i>&nbsp;&nbsp;&nbsp;Call us: 0123456789</p>
+            </div>
+
+        </div>
+
+        <!-- nav end -->
+
+        <div class="tagsconten">
+            <ul>
+                <li><a href="">Top Tags:</a></li>
+                <li><a href="">Wheels&Tires |</a></li>
+                <li><a href="">Lighting&Lamp |</a></li>
+                <li><a href="">Body Parts |</a></li>
+                <li><a href="">SmartDevices |</a></li>
+                <li><a href="">Devices |</a></li>
+                <li><a href="">Repair Parts |</a></li>
+                <li><a href="">Car Engine |</a></li>
+                <li><a href=""> Accessories</a></li>
             </ul>
+        </div>
+
+        <!-- tagsconten end -->
+
+        <div class="carimg">
+            <div class="incaring">
+                <p class="p1">BIg SALE ORR</p>
+                <p class="p2">ACCESSORIES FIDANZA</p>
+                <p class="p3">Exclusive Offer -30% Off This Week</p>
+                <button>SHOPPING NOW <i class='fas fa-angle-double-right'></i></button>
+            </div>
+        </div>
+        <!-- carimg end -->
+
+        <div class="mazlay">
+            <h2>WELCOME TO MAZLAY</h2>
+            <h1>CUSTOM <span>SHOPPING STORE ONLINE</span></h1>
+            <p>Designer Accessories. Locally Designed. Globally Crafted.</p>
+        </div>
+
+        <!-- mazlay end -->
+
+        <div class="bannerimg">
+            <div class="banner1 a">
+                <img src="images/banner1.jpg">
+            </div>
+            <div class="banner1 a">
+                <img src="images/banner2.jpg">
+            </div>
+            <div class="banner1 a">
+                <img src="images/banner3.jpg">
+            </div>
+
+        </div>
+
+        <!-- bannerimg end -->
+
+        <div class="category">
+
+            <div class="category1">
+                <a href=""><img src="images/category1.jpg">
+                    <p class="text">BODY PARTS</p>
+                </a>
+            </div>
+
+            <div class="category1">
+                <a href=""><img src="images/category2.jpg">
+                    <P class="text">CAR ENGINE</P>
+                </a>
+            </div>
+
+            <div class="category1 category2">
+                <a href=""><img src="images/category3.jpg">
+                    <P class="text">IN TEROROS</P>
+                </a>
+            </div>
+
+            <div class="category1 category2">
+                <a href=""><img src="images/category4.jpg">
+                    <P class="text">LIGHTING & LAMP</P>
+                </a>
+            </div>
+
+            <div class="category1 category2">
+                <a href=""><img src="images/category5.jpg">
+                    <P class="text">REPAIR PARTS</P>
+                </a>
+            </div>
+
+            <div class="category1 category2">
+                <a href=""><img src="images/category6.jpg">
+                    <P class="text">SMART DEVICES</P>
+                </a>
+            </div>
+
+            <div class="category1 category2">
+                <a href=""><img src="images/category7.jpg">
+                    <P class="text">WHEELS & TIRES</P>
+                </a>
+            </div>
+
+        </div>
+
+        <!-- category end -->
+
+        <div class="Products">
+            <h2><span>OUR</span> PRODUCTS</h2>
+            <p>Consectetuer sociis mauris eu augue velit pulvinar ullamcorper in ac mauris ac vel, interdum sed</p>
+            <p>malesuada curae sit amet non nec quis arcu massa.</p>
+        </div>
+
+        <div class="productsconten">
+            <!-- card stat1 -->
+            <div class="product-card">
+                <span class="new">New</span>
+                <div class="prd-img">
+                    <div class="front">
+                        <img src="images/product1.jpg" height="100%" width="100%">
+                    </div>
+
+                    <div class="back">
+                        <img src="images/product2.jpg" height="100%" width="100%">
+                    </div>
+                </div>
+                <div class="view"><button class="add">ADD TO CART</button> &nbsp&nbsp&nbsp<i class='far fa-heart'></i>
+                </div>
+                <div class="info">
+                    <p class="parts"><a href="">parts</a></p>
+                    <p class="parts"><a href="">Nunc Neque Eros</a></p>
+                    <p class="price"><span class="line">$320.00</span> $120.00</p>
+                </div>
+            </div>
+            <!--  card end-->
+
+            <!-- card stat2 -->
+            <div class="product-card">
+                <span class="new">New</span>
+                <div class="prd-img">
+                    <div class="front">
+                        <img src="images/product3.jpg" height="100%" width="100%">
+                    </div>
+
+                    <div class="back">
+                        <img src="images/product4.jpg" height="100%" width="100%">
+                    </div>
+                </div>
+                <div class="view"><button class="add">ADD TO CART</button> &nbsp&nbsp&nbsp<i class='far fa-heart'></i>
+                </div>
+                <div class="info">
+                    <p class="parts"><a href="">parts</a></p>
+                    <p class="parts"><a href="">Nunc Neque Eros</a></p>
+                    <p class="price"><span class="line">$310.00</span> $110.00</p>
+                </div>
+            </div>
+            <!--  card end-->
+
+            <!-- card stat3 -->
+            <div class="product-card">
+                <span class="new">New</span>
+                <div class="prd-img">
+                    <div class="front">
+                        <img src="images/product8.jpg" height="100%" width="100%">
+                    </div>
+
+                    <div class="back">
+                        <img src="images/product7.jpg" height="100%" width="100%">
+                    </div>
+                </div>
+                <div class="view"><button class="add">ADD TO CART</button> &nbsp&nbsp&nbsp<i class='far fa-heart'></i>
+                </div>
+                <div class="info">
+                    <p class="parts"><a href="">parts</a></p>
+                    <p class="parts"><a href="">Nunc Neque Eros</a></p>
+                    <p class="price"><span class="line">$420.00</span> $220.00</p>
+                </div>
+            </div>
+            <!--  card end-->
+
+            <!-- card stat4 -->
+            <div class="product-card">
+                <span class="new">New</span>
+                <div class="prd-img">
+                    <div class="front">
+                        <img src="images/product12.jpg" height="100%" width="100%">
+                    </div>
+
+                    <div class="back">
+                        <img src="images/product11.jpg" height="100%" width="100%">
+                    </div>
+                </div>
+                <div class="view"><button class="add">ADD TO CART</button> &nbsp&nbsp&nbsp<i class='far fa-heart'></i>
+                </div>
+                <div class="info">
+                    <p class="parts"><a href="">parts</a></p>
+                    <p class="parts"><a href="">Nunc Neque Eros</a></p>
+                    <p class="price"><span class="line">$320.00</span> $120.00</p>
+                </div>
+            </div>
+            <!--  card end-->
+
+            <!-- card stat5 -->
+            <div class="product-card product-card1">
+                <span class="new">New</span>
+                <div class="prd-img">
+                    <div class="front">
+                        <img src="images/product4.jpg" height="100%" width="100%">
+                    </div>
+
+                    <div class="back">
+                        <img src="images/product3.jpg" height="100%" width="100%">
+                    </div>
+                </div>
+                <div class="view"><button class="add">ADD TO CART</button> &nbsp&nbsp&nbsp<i class='far fa-heart'></i>
+                </div>
+                <div class="info">
+                    <p class="parts"><a href="">parts</a></p>
+                    <p class="parts"><a href="">Nunc Neque Eros</a></p>
+                    <p class="price"><span class="line">$320.00</span> $120.00</p>
+                </div>
+            </div>
+            <!--  card end-->
+
+            <!-- card stat6 -->
+            <div class="product-card product-card1">
+                <span class="new">New</span>
+                <div class="prd-img">
+                    <div class="front">
+                        <img src="images/product5.jpg" height="100%" width="100%">
+                    </div>
+
+                    <div class="back">
+                        <img src="images/product6.jpg" height="100%" width="100%">
+                    </div>
+                </div>
+                <div class="view"><button class="add">ADD TO CART</button> &nbsp&nbsp&nbsp<i class='far fa-heart'></i>
+                </div>
+                <div class="info">
+                    <p class="parts"><a href="">parts</a></p>
+                    <p class="parts"><a href="">Nunc Neque Eros</a></p>
+                    <p class="price"><span class="line">$350.00</span> $190.00</p>
+                </div>
+            </div>
+            <!--  card end-->
+
+            <!-- card stat7 -->
+            <div class="product-card product-card1">
+                <span class="new">New</span>
+                <div class="prd-img">
+                    <div class="front">
+                        <img src="images/product9.jpg" height="100%" width="100%">
+                    </div>
+
+                    <div class="back">
+                        <img src="images/product10.jpg" height="100%" width="100%">
+                    </div>
+                </div>
+                <div class="view"><button class="add">ADD TO CART</button> &nbsp&nbsp&nbsp<i class='far fa-heart'></i>
+                </div>
+                <div class="info">
+                    <p class="parts"><a href="">parts</a></p>
+                    <p class="parts"><a href="">Nunc Neque Eros</a></p>
+                    <p class="price"><span class="line">$420.00</span> $180.00</p>
+                </div>
+            </div>
+            <!--  card end-->
+
+            <!-- card stat8 -->
+            <div class="product-card product-card1">
+                <span class="new">New</span>
+                <div class="prd-img">
+                    <div class="front">
+                        <img src="images/product2.jpg" height="100%" width="100%">
+                    </div>
+
+                    <div class="back">
+                        <img src="images/product1.jpg" height="100%" width="100%">
+                    </div>
+                </div>
+                <div class="view"><button class="add">ADD TO CART</button> &nbsp&nbsp&nbsp<i class='far fa-heart'></i>
+                </div>
+                <div class="info">
+                    <p class="parts"><a href="">parts</a></p>
+                    <p class="parts"><a href="">Nunc Neque Eros</a></p>
+                    <p class="price"><span class="line">$420.00</span> $180.00</p>
+                </div>
+            </div>
+            <!--  card end-->
+
+            <!-- card stat9 -->
+            <div class="product-card product-card1">
+                <span class="new">New</span>
+                <div class="prd-img">
+                    <div class="front">
+                        <img src="images/product6.jpg" height="100%" width="100%">
+                    </div>
+
+                    <div class="back">
+                        <img src="images/product5.jpg" height="100%" width="100%">
+                    </div>
+                </div>
+                <div class="view"><button class="add">ADD TO CART</button> &nbsp&nbsp&nbsp<i class='far fa-heart'></i>
+                </div>
+                <div class="info">
+                    <p class="parts"><a href="">parts</a></p>
+                    <p class="parts"><a href="">Nunc Neque Eros</a></p>
+                    <p class="price"><span class="line">$420.00</span> $180.00</p>
+                </div>
+            </div>
+            <!--  card end-->
+
+            <!-- card stat10 -->
+            <div class="product-card product-card1">
+                <span class="new">New</span>
+                <div class="prd-img">
+                    <div class="front">
+                        <img src="images/product7.jpg" height="100%" width="100%">
+                    </div>
+
+                    <div class="back">
+                        <img src="images/product8.jpg" height="100%" width="100%">
+                    </div>
+                </div>
+                <div class="view"><button class="add">ADD TO CART</button> &nbsp&nbsp&nbsp<i class='far fa-heart'></i>
+                </div>
+                <div class="info">
+                    <p class="parts"><a href="">parts</a></p>
+                    <p class="parts"><a href="">Nunc Neque Eros</a></p>
+                    <p class="price"><span class="line">$320.00</span> $120.00</p>
+                </div>
+            </div>
+            <!--  card end -->
+        </div>
+
+        <div class="banner4-5">
+            <div class="banner4 B">
+                <img src="images/banner4.webp">
+            </div>
+            <div class="banner4 B">
+                <img src="images/banner5.webp">
+            </div>
+        </div>
+
+        <div class="ONSALE1">
+            <h3><span>ONSALE</span> PRODUCTSThe</h3>
+            <p>highest discount products of Mazlay</p>
+        </div>
+
+        <div class="ONSALE">
+            <!-- card stat3 -->
+            <div class="product-card pc1">
+                <span class="new">New</span>
+                <div class="prd-img">
+                    <div class="front">
+                        <img src="images/product8.jpg" height="100%" width="100%">
+                    </div>
+
+                    <div class="back">
+                        <img src="images/product7.jpg" height="100%" width="100%">
+                    </div>
+                </div>
+                <div class="view"><button class="add">ADD TO CART</button> &nbsp&nbsp&nbsp<i class='far fa-heart'></i>
+                </div>
+                <div class="info pc2">
+                    <p class="parts"><a href="">parts</a></p>
+                    <p class="parts"><a href="">Nunc Neque Eros</a></p>
+                    <p class="price"><span class="line">$420.00</span> $220.00</p>
+                    <p class="pc3">Nunc facilisis sagittis ullamcorper. <br> Proin lectus ipsum, gravida et <br> mattis
+                        vulputate, tristique ut
+                        <br> lectus. Sed et lorem nunc.
+                    </p>
+                </div>
+            </div>
+
+
+
+            <!-- card stat7 -->
+            <div class="product-card">
+                <span class="new">New</span>
+                <div class="prd-img">
+                    <div class="front">
+                        <img src="images/product9.jpg" height="100%" width="100%">
+                    </div>
+
+                    <div class="back">
+                        <img src="images/product10.jpg" height="100%" width="100%">
+                    </div>
+                </div>
+                <div class="view"><button class="add">ADD TO CART</button> &nbsp&nbsp&nbsp<i class='far fa-heart'></i>
+                </div>
+                <div class="info">
+                    <p class="parts"><a href="">parts</a></p>
+                    <p class="parts"><a href="">Nunc Neque Eros</a></p>
+                    <p class="price"><span class="line">$420.00</span> $180.00</p>
+                </div>
+            </div>
+            <!--  card end -->
+
+            <!-- card stat5 -->
+            <div class="product-card">
+                <span class="new">New</span>
+                <div class="prd-img">
+                    <div class="front">
+                        <img src="images/product4.jpg" height="100%" width="100%">
+                    </div>
+
+                    <div class="back">
+                        <img src="images/product3.jpg" height="100%" width="100%">
+                    </div>
+                </div>
+                <div class="view"><button class="add">ADD TO CART</button> &nbsp&nbsp&nbsp<i class='far fa-heart'></i>
+                </div>
+                <div class="info">
+                    <p class="parts"><a href="">parts</a></p>
+                    <p class="parts"><a href="">Nunc Neque Eros</a></p>
+                    <p class="price"><span class="line">$320.00</span> $120.00</p>
+                </div>
+            </div>
+            <!--  card end-->
+
+            <!-- card stat1 -->
+            <div class="product-card">
+                <span class="new">New</span>
+                <div class="prd-img">
+                    <div class="front">
+                        <img src="images/product1.jpg" height="100%" width="100%">
+                    </div>
+
+                    <div class="back">
+                        <img src="images/product2.jpg" height="100%" width="100%">
+                    </div>
+                </div>
+                <div class="view"><button class="add">ADD TO CART</button> &nbsp&nbsp&nbsp<i class='far fa-heart'></i>
+                </div>
+                <div class="info">
+                    <p class="parts"><a href="">parts</a></p>
+                    <p class="parts"><a href="">Nunc Neque Eros</a></p>
+                    <p class="price"><span class="line">$320.00</span> $120.00</p>
+                </div>
+            </div>
+            <!--  card end-->
+        </div>
+
+        <div class="LATEST">
+            <p><span>LATEST</span> BLOG POSTS</p>
+            <p class="text">The highest discount products of Mazlay</p>
+        </div>
+
+        <div class="blog">
+            <div class="blog1">
+                <img src="images/blog1.webp">
+                <p class="text1">Aenean Et Nulla Sociosqu Ad <br> Litora Torquent Per</p>
+                <p class="text2"> <span>eCommer</span> /17 July</p>
+                <p class="text3">Condimentum blandit est sed mollitia libero <br>pharetra aenean...</p>
+                <br>
+                <hr style="width: 320px;">
+                <p class="text4">Continue Reading</p>
+
+            </div>
+            <div class="blog1">
+                <img src="images/blog2.webp">
+                <p class="text1">Class Aptent Eum Fiction Molestie <br> Consequat</p>
+                <p class="text2"> <span>eCommer</span> /17 July</p>
+                <p class="text3">Condimentum blandit est sed mollitia libero <br>pharetra aenean...</p>
+                <br>
+                <hr style="width: 320px;">
+                <p class="text4">Continue Reading</p>
+            </div>
+            <div class="blog1">
+                <img src="images/blog3.webp">
+                <p class="text1">Coconut Lemon Bath & Shower Gel <br> Juice</p>
+                <p class="text2"> <span>eCommer</span> /17 July</p>
+                <p class="text3">Condimentum blandit est sed mollitia libero <br>pharetra aenean...</p>
+                <br>
+                <hr style="width: 320px;">
+                <p class="text4">Continue Reading</p>
+            </div>
+            <div class="blog1">
+                <img src="images/blog4.webp">
+                <p class="text1">Aenean Et Nulla Sociosqu Ad <br> Litora Torquent Per</p>
+                <p class="text2"> <span>eCommer</span> /17 July</p>
+                <p class="text3">Condimentum blandit est sed mollitia libero <br>pharetra aenean...</p>
+                <br>
+                <hr style="width: 320px;">
+                <p class="text4">Continue Reading</p>
+            </div>
+
         </div> -->
-    </div>
 
-    <!-- navbar end -->
-
-
-    <div class="tagsconten">
-        <ul>
-            <li><a href="">Top Tags:</a></li>
-            <li><a href="">Wheels&Tires</a></li>
-            <li><a href="">Lighting&Lamp</a></li>
-            <li><a href="">Body Parts</a></li>
-            <li><a href="">SmartDevices</a></li>
-            <li><a href="">Devices</a></li>
-            <li><a href="">Repair Parts</a></li>
-            <li><a href="">Car Engine</a></li>
-            <li><a href=""> Accessories</a></li>
-        </ul>
-    </div>
-
-    <!-- tagsconten end -->
-
-    <div class="carimg">
-        <img src="images/car.jpg" height="100%" width="100%">
-        <p class="p1">BIg SALE ORR</p>
-        <p class="p2">ACCESSORIES FIDANZA</p>
-        <p class="p3">Exclusive Offer -30% Off This Week</p>
-
-        <button>SHOPPING NOW <i class='fas fa-angle-double-right'></i></button>
-
-    </div>
-    <!-- carimg end -->
-
-    <div class="mazlay">
-        <h2>WELCOME TO MAZLAY</h2>
-        <h1>CUSTOM <span>SHOPPING STORE ONLINE</span></h1>
-        <p>Designer Accessories. Locally Designed. Globally Crafted.</p>
-    </div>
-
-    <!-- mazlay end -->
-
-    <div class="bannerimg">
-        <div class="banner1 a">
-            <img src="images/banner1.jpg">
-        </div>
-        <div class="banner1 a">
-            <img src="images/banner2.jpg">
-        </div>
-        <div class="banner1 a">
-            <img src="images/banner3.jpg">
-        </div>
-
-    </div>
-
-    <!-- bannerimg end -->
-
-    <div class="category">
-
-        <div class="category1">
-            <a href=""><img src="images/category1.jpg">
-                <p>BODY PARTS</p>
-            </a>
-        </div>
-
-        <div class="category1">
-            <a href=""><img src="images/category2.jpg">
-                <P>CAR ENGINE</P>
-            </a>
-        </div>
-
-        <div class="category1">
-            <a href=""><img src="images/category3.jpg">
-                <P>IN TEROROS</P>
-            </a>
-        </div>
-
-        <div class="category1 ">
-            <a href=""><img src="images/category4.jpg">
-                <P>LIGHTING & LAMP</P>
-            </a>
-        </div>
-
-        <div class="category1">
-            <a href=""><img src="images/category5.jpg">
-                <P>REPAIR PARTS</P>
-            </a>
-        </div>
-
-        <div class="category1">
-            <a href=""><img src="images/category6.jpg">
-                <P>SMART DEVICES</P>
-            </a>
-        </div>
-
-        <div class="category1">
-            <a href=""><img src="images/category7.jpg">
-                <P>WHEELS & TIRES</P>
-            </a>
-        </div>
-
-    </div>
-
-    <!-- category end -->
-
-    <div class="Products">
-        <h2><span>OUR</span> PRODUCTS</h2>
-        <p>Consectetuer sociis mauris eu augue velit pulvinar ullamcorper in ac mauris ac vel, interdum sed</p>
-        <p>malesuada curae sit amet non nec quis arcu massa.</p>
-    </div>
-
-    <div class="productsconten">
-        <!-- card stat1 -->
-        <div class="product-card">
-            <span class="new">New</span>
-            <div class="prd-img">
-                <div class="front">
-                    <img src="images/product1.jpg" height="100%" width="100%">
-                </div>
-
-                <div class="back">
-                    <img src="images/product2.jpg" height="100%" width="100%">
-                </div>
+        <div class="brand">
+            <div class="brand1">
+                <img src="images/brand1.webp">
             </div>
-            <div class="view"><button class="add">ADD TO CART</button> &nbsp&nbsp&nbsp<i class='far fa-heart'></i></div>
-            <div class="info">
-                <p class="parts"><a href="">parts</a></p>
-                <p class="parts"><a href="">Nunc Neque Eros</a></p>
-                <p class="price"><span class="line">$320.00</span> $120.00</p>
-
+            <div class="brand1">
+                <img src="images/brand3.jpg">
             </div>
-
-        </div>
-        <!--  card end-->
-
-        <!-- card stat2 -->
-        <div class="product-card">
-            <span class="new">New</span>
-            <div class="prd-img">
-                <div class="front">
-                    <img src="images/product3.jpg" height="100%" width="100%">
-                </div>
-
-                <div class="back">
-                    <img src="images/product4.jpg" height="100%" width="100%">
-                </div>
+            <div class="brand1">
+                <img src="images/brand5.webp">
             </div>
-            <div class="view"><button class="add">ADD TO CART</button> &nbsp&nbsp&nbsp<i class='far fa-heart'></i></div>
-            <div class="info">
-                <p class="parts"><a href="">parts</a></p>
-                <p class="parts"><a href="">Nunc Neque Eros</a></p>
-                <p class="price"><span class="line">$310.00</span> $110.00</p>
+            <div class="brand1">
+                <img src="images/brand7 (1).webp">
             </div>
-
-
-        </div>
-        <!--  card end-->
-
-        <!-- card stat3 -->
-        <div class="product-card">
-            <span class="new">New</span>
-            <div class="prd-img">
-                <div class="front">
-                    <img src="images/product8.jpg" height="100%" width="100%">
-                </div>
-
-                <div class="back">
-                    <img src="images/product7.jpg" height="100%" width="100%">
-                </div>
+            <div class="brand1">
+                <img src="images/brand1.webp">
             </div>
-            <div class="view"><button class="add">ADD TO CART</button> &nbsp&nbsp&nbsp<i class='far fa-heart'></i></div>
-            <div class="info">
-                <p class="parts"><a href="">parts</a></p>
-                <p class="parts"><a href="">Nunc Neque Eros</a></p>
-                <p class="price"><span class="line">$420.00</span> $220.00</p>
+            <div class="brand1">
+                <img src="images/brand3.jpg">
             </div>
-        </div>
-        <!--  card end-->
-
-        <!-- card stat4 -->
-        <div class="product-card">
-            <span class="new">New</span>
-            <div class="prd-img">
-                <div class="front">
-                    <img src="images/product12.jpg" height="100%" width="100%">
-                </div>
-
-                <div class="back">
-                    <img src="images/product11.jpg" height="100%" width="100%">
-                </div>
+            <div class="brand1">
+                <img src="images/brand2.webp">
             </div>
-            <div class="view"><button class="add">ADD TO CART</button> &nbsp&nbsp&nbsp<i class='far fa-heart'></i></div>
-            <div class="info">
-                <p class="parts"><a href="">parts</a></p>
-                <p class="parts"><a href="">Nunc Neque Eros</a></p>
-                <p class="price"><span class="line">$320.00</span> $120.00</p>
+            <div class="brand1">
+                <img src="images/brand4.webp">
             </div>
-        </div>
-        <!--  card end-->
-
-        <!-- card stat5 -->
-        <div class="product-card">
-            <span class="new">New</span>
-            <div class="prd-img">
-                <div class="front">
-                    <img src="images/product4.jpg" height="100%" width="100%">
-                </div>
-
-                <div class="back">
-                    <img src="images/product3.jpg" height="100%" width="100%">
-                </div>
+            <div class="brand1">
+                <img src="images/brand6.webp">
             </div>
-            <div class="view"><button class="add">ADD TO CART</button> &nbsp&nbsp&nbsp<i class='far fa-heart'></i></div>
-            <div class="info">
-                <p class="parts"><a href="">parts</a></p>
-                <p class="parts"><a href="">Nunc Neque Eros</a></p>
-                <p class="price"><span class="line">$320.00</span> $120.00</p>
+            <div class="brand1">
+                <img src="images/brand8.webp">
             </div>
-        </div>
-        <!--  card end-->
-
-        <!-- card stat6 -->
-        <div class="product-card">
-            <span class="new">New</span>
-            <div class="prd-img">
-                <div class="front">
-                    <img src="images/product5.jpg" height="100%" width="100%">
-                </div>
-
-                <div class="back">
-                    <img src="images/product6.jpg" height="100%" width="100%">
-                </div>
+            <div class="brand1">
+                <img src="images/brand2.webp">
             </div>
-            <div class="view"><button class="add">ADD TO CART</button> &nbsp&nbsp&nbsp<i class='far fa-heart'></i></div>
-            <div class="info">
-                <p class="parts"><a href="">parts</a></p>
-                <p class="parts"><a href="">Nunc Neque Eros</a></p>
-                <p class="price"><span class="line">$350.00</span> $190.00</p>
-            </div>
-        </div>
-        <!--  card end-->
-
-        <!-- card stat7 -->
-        <div class="product-card">
-            <span class="new">New</span>
-            <div class="prd-img">
-                <div class="front">
-                    <img src="images/product9.jpg" height="100%" width="100%">
-                </div>
-
-                <div class="back">
-                    <img src="images/product10.jpg" height="100%" width="100%">
-                </div>
-            </div>
-            <div class="view"><button class="add">ADD TO CART</button> &nbsp&nbsp&nbsp<i class='far fa-heart'></i></div>
-            <div class="info">
-                <p class="parts"><a href="">parts</a></p>
-                <p class="parts"><a href="">Nunc Neque Eros</a></p>
-                <p class="price"><span class="line">$420.00</span> $180.00</p>
-            </div>
-        </div>
-        <!--  card end-->
-
-        <!-- card stat8 -->
-        <div class="product-card">
-            <span class="new">New</span>
-            <div class="prd-img">
-                <div class="front">
-                    <img src="images/product2.jpg" height="100%" width="100%">
-                </div>
-
-                <div class="back">
-                    <img src="images/product1.jpg" height="100%" width="100%">
-                </div>
-            </div>
-            <div class="view"><button class="add">ADD TO CART</button> &nbsp&nbsp&nbsp<i class='far fa-heart'></i></div>
-            <div class="info">
-                <p class="parts"><a href="">parts</a></p>
-                <p class="parts"><a href="">Nunc Neque Eros</a></p>
-                <p class="price"><span class="line">$420.00</span> $180.00</p>
-            </div>
-        </div>
-        <!--  card end-->
-
-        <!-- card stat9 -->
-        <div class="product-card">
-            <span class="new">New</span>
-            <div class="prd-img">
-                <div class="front">
-                    <img src="images/product6.jpg" height="100%" width="100%">
-                </div>
-
-                <div class="back">
-                    <img src="images/product5.jpg" height="100%" width="100%">
-                </div>
-            </div>
-            <div class="view"><button class="add">ADD TO CART</button> &nbsp&nbsp&nbsp<i class='far fa-heart'></i></div>
-            <div class="info">
-                <p class="parts"><a href="">parts</a></p>
-                <p class="parts"><a href="">Nunc Neque Eros</a></p>
-                <p class="price"><span class="line">$420.00</span> $180.00</p>
-            </div>
-        </div>
-        <!--  card end-->
-
-        <!-- card stat10 -->
-        <div class="product-card">
-            <span class="new">New</span>
-            <div class="prd-img">
-                <div class="front">
-                    <img src="images/product7.jpg" height="100%" width="100%">
-                </div>
-
-                <div class="back">
-                    <img src="images/product8.jpg" height="100%" width="100%">
-                </div>
-            </div>
-            <div class="view"><button class="add">ADD TO CART</button> &nbsp&nbsp&nbsp<i class='far fa-heart'></i></div>
-            <div class="info">
-                <p class="parts"><a href="">parts</a></p>
-                <p class="parts"><a href="">Nunc Neque Eros</a></p>
-                <p class="price"><span class="line">$320.00</span> $120.00</p>
-            </div>
-        </div>
-        <!--  card end-->
-    </div>
-
-    <div class="banner4-5">
-        <div class="banner4 B">
-            <img src="images/banner4.webp">
-        </div>
-        <div class="banner4 B">
-            <img src="images/banner5.webp">
-        </div>
-    </div>
-
-    <div class="ONSALE1">
-        <h3><span>ONSALE</span> PRODUCTSThe</h3>
-        <p>highest discount products of Mazlay</p>
-    </div>
-
-    <div class="ONSALE">
-        <!-- card stat3 -->
-        <div class="product-card pc1">
-            <span class="new">New</span>
-            <div class="prd-img">
-                <div class="front">
-                    <img src="images/product8.jpg" height="100%" width="100%">
-                </div>
-
-                <div class="back">
-                    <img src="images/product7.jpg" height="100%" width="100%">
-                </div>
-            </div>
-            <div class="view"><button class="add">ADD TO CART</button> &nbsp&nbsp&nbsp<i class='far fa-heart'></i></div>
-            <div class="info pc2">
-                <p class="parts"><a href="">parts</a></p>
-                <p class="parts"><a href="">Nunc Neque Eros</a></p>
-                <p class="price"><span class="line">$420.00</span> $220.00</p>
-                <p class="pc3">Nunc facilisis sagittis ullamcorper. <br> Proin lectus ipsum, gravida et <br> mattis
-                    vulputate, tristique ut
-                    <br> lectus. Sed et lorem nunc.
-                </p>
+            <div class="brand1">
+                <img src="images/brand4.webp">
             </div>
         </div>
 
+        <div class="contact">
+            <div class="followus">
+                <h3>FOLLOW US</h3>
+                <p>We make consolidating, marketing and tracking your <br> social media website easy.</p>
+                <ul class="appicon">
+                    <li><i class="fa-brands fa-facebook-f"></i></li>
+                    <li><i class="fa-brands fa-twitter"></i></li>
+                    <li><i class="fas fa-rss"></i></li>
+                    <li><i class="fa-brands fa-youtube"></i></li>
+                    <li><i class="fa-brands fa-google"></i></li>
+                    <li><i class="fa-brands fa-instagram"></i></li>
+                </ul>
 
-        <!-- card stat7 -->
-        <div class="product-card">
-            <span class="new">New</span>
-            <div class="prd-img">
-                <div class="front">
-                    <img src="images/product9.jpg" height="100%" width="100%">
+            </div>
+
+            <div class="followus">
+                <h3>NEWSLETTER NOW</h3>
+                <p>Join 60.000+ subscribers and get a new discount coupon <br> on every Wednesday.</p>
+                <input type="Email" placeholder="enter you Email address here" required>
+                <button>Subscribe</button>
+            </div>
+
+            <div class="followus imgapp">
+                <h3>GET THE APP</h3>
+                <p>Mazlay App is now available on Google Play & App Store. <br> Get it now.</p>
+                <div class="imgapp1">
+                    <img src="images/icon-app.jpg">
+                </div>
+                <div class="imgapp2">
+                    <img src="images/icon1-app.webp">
                 </div>
 
-                <div class="back">
-                    <img src="images/product10.jpg" height="100%" width="100%">
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="shippimg">
+                <div class="shippimg1">
+                    <img src="images/shipping1.png">
+                    <p class="delivery">Free Delivery</p>
+                    <p class="delivery1"> For all oders over $120</p>
+                </div>
+                <div class="shippimg1">
+                    <img src="images/shipping2.png">
+                    <p class="delivery">Free Delivery</p>
+                    <p class="delivery1"> For all oders over $120</p>
+                </div>
+                <div class="shippimg1">
+                    <img src="images/shipping3.png">
+                    <p class="delivery">Free Delivery</p>
+                    <p class="delivery1"> For all oders over $120</p>
+                </div>
+                <div class="shippimg1">
+                    <img src="images/shipping4.png">
+                    <p class="delivery">Free Delivery</p>
+                    <p class="delivery1"> For all oders over $120</p>
+                </div>
+                <div class="shippimg1">
+                    <img src="images/shipping5.png">
+                    <p class="delivery">Free Delivery</p>
+                    <p class="delivery1"> For all oders over $120</p>
                 </div>
             </div>
-            <div class="view"><button class="add">ADD TO CART</button> &nbsp&nbsp&nbsp<i class='far fa-heart'></i></div>
-            <div class="info">
-                <p class="parts"><a href="">parts</a></p>
-                <p class="parts"><a href="">Nunc Neque Eros</a></p>
-                <p class="price"><span class="line">$420.00</span> $180.00</p>
-            </div>
-        </div>
-        <!--  card end-->
+            <hr class="hr">
+            <div class="footerCONTACT">
+                <div class="CONTACTINFO">
+                    <h3 class="h31">CONTACT INFO</h3>
+                    <div class="infoimg">
+                        <img src="images/icon-phone.webp">
+                        <p class="hotline">Hotline Free 24/24: <br>
+                            <span>0123456789</span>
+                        </p>
+                    </div>
+                    <p class="infop1">We are a team of designers and developers that create high quality HTML Template,
+                        Woocommerce,
+                        Shopify Theme.</p>
 
-        <!-- card stat5 -->
-        <div class="product-card">
-            <span class="new">New</span>
-            <div class="prd-img">
-                <div class="front">
-                    <img src="images/product4.jpg" height="100%" width="100%">
+                    <p class="infop1">Your address goes here.. <br>
+                        demo@example.com</p>
+
                 </div>
 
-                <div class="back">
-                    <img src="images/product3.jpg" height="100%" width="100%">
+                <div class="INFORMATION">
+                    <ul class="footerul">
+                        <h3 class="textbold">INFORMATION</h3>
+
+                        <li>About Us</li>
+                        <li>Delivery Information</li>
+                        <li>New products</li>
+                        <li>Best sales</li>
+                        <li>My Account</li>
+                        <li>Order History</li>
+                    </ul>
+
+                    <ul class="footerul">
+                        <h3 class="textbold">CUSTOMER SERVICE</h3>
+
+                        <li>My Account</li>
+                        <li>Shopping Cart</li>
+                        <li>Wish List</li>
+                        <li>Prices drop</li>
+                        <li> Order History</li>
+                        <li> International Orders</li>
+                    </ul>
+
+                    <ul class="footerul">
+                        <h3 class="textbold">MY ACCOUNT</h3>
+
+                        <li>Sitemap</li>
+                        <li>My Account</li>
+                        <li>Delivery Information</li>
+                        <li>Order History</li>
+                        <li>Wish List</li>
+                        <li>Specials</li>
+                    </ul>
+
+                    <ul class="footerul">
+                        <h3 class="textbold">EXTRAS</h3>
+
+                        <li> Brands</li>
+                        <li>Gift Certificates</li>
+                        <li> Affiliate</li>
+                        <li>Specials</li>
+                        <li>Wish List</li>
+                        <li>Newsletter</li>
+                    </ul>
+
+                    <ul class="footerul">
+                        <h3 class="textbold">PAYMENT & METHODS</h3>
+
+                        <li> Payment Methods</li>
+                        <li>My Account</li>
+                        <li> View All Amazing Deals</li>
+                        <li>Locations We Ship To</li>
+                        <li>FAQs</li>
+                        <li>Estimated Delivery Time</li>
+                    </ul>
+
+                </div>
+
+            </div>
+            <hr class="hr">
+            <div class="pay">
+                <div class="parts-3">
+                    <p class="made">© 2022 <span>MAZLAY</span> .Made With <i class="fa fa-heart"
+                            style="font-size:15px;color:red"></i> By <span>HasThemes</span> </p>
+                </div>
+                <div class="payment">
+                    <img src="images/payment.png">
                 </div>
             </div>
-            <div class="view"><button class="add">ADD TO CART</button> &nbsp&nbsp&nbsp<i class='far fa-heart'></i></div>
-            <div class="info">
-                <p class="parts"><a href="">parts</a></p>
-                <p class="parts"><a href="">Nunc Neque Eros</a></p>
-                <p class="price"><span class="line">$320.00</span> $120.00</p>
-            </div>
         </div>
-        <!--  card end-->
-
-        <!-- card stat1 -->
-        <div class="product-card">
-            <span class="new">New</span>
-            <div class="prd-img">
-                <div class="front">
-                    <img src="images/product1.jpg" height="100%" width="100%">
-                </div>
-
-                <div class="back">
-                    <img src="images/product2.jpg" height="100%" width="100%">
-                </div>
-            </div>
-            <div class="view"><button class="add">ADD TO CART</button> &nbsp&nbsp&nbsp<i class='far fa-heart'></i></div>
-            <div class="info">
-                <p class="parts"><a href="">parts</a></p>
-                <p class="parts"><a href="">Nunc Neque Eros</a></p>
-                <p class="price"><span class="line">$320.00</span> $120.00</p>
-            </div>
-        </div>
-        <!--  card end-->
-    </div>
-
-    <div class="LATEST">
-        <p><span>LATEST</span> BLOG POSTS</p>
-        <p class="text">The highest discount products of Mazlay</p>
-    </div>
-
-    <div class="blog">
-        <div class="blog1">
-            <img src="images/blog1.webp">
-            <p class="text1">Aenean Et Nulla Sociosqu Ad <br> Litora Torquent Per</p>
-            <p class="text2"> <span>eCommer</span> /17 July</p>
-            <p class="text3">Condimentum blandit est sed mollitia libero <br>pharetra aenean...</p>
-            <br>
-            <hr style="width: 320px;">
-            <p class="text4">Continue Reading</p>
-            
-        </div>
-        <div class="blog1">
-            <img src="images/blog2.webp">
-            <p class="text1">Class Aptent Eum Fiction Molestie  <br> Consequat</p>
-            <p class="text2"> <span>eCommer</span> /17 July</p>
-            <p class="text3">Condimentum blandit est sed mollitia libero <br>pharetra aenean...</p>
-            <br>
-            <hr style="width: 320px;">
-            <p class="text4">Continue Reading</p>
-        </div>
-        <div class="blog1">
-            <img src="images/blog3.webp">
-            <p class="text1">Coconut Lemon Bath & Shower Gel <br> Juice</p>
-            <p class="text2"> <span>eCommer</span> /17 July</p>
-            <p class="text3">Condimentum blandit est sed mollitia libero <br>pharetra aenean...</p>
-            <br>
-            <hr style="width: 320px;">
-            <p class="text4">Continue Reading</p>
-        </div>
-        <div class="blog1">
-            <img src="images/blog4.webp">
-            <p class="text1">Aenean Et Nulla Sociosqu Ad <br> Litora Torquent Per</p>
-            <p class="text2"> <span>eCommer</span> /17 July</p>
-            <p class="text3">Condimentum blandit est sed mollitia libero <br>pharetra aenean...</p>
-            <br>
-            <hr style="width: 320px;">
-            <p class="text4">Continue Reading</p>
-        </div>
-
-    </div>
-
-    <div class="brand">
-        <div>
-            <img src="images/brand1.webp">
-        </div>
-        <div>
-            <img src="images/brand3.jpg">
-        </div>
-        <div>
-            <img src="images/brand5.webp">
-        </div>
-        <div>
-            <img src="images/brand7 (1).webp">
-        </div>
-        <div>
-            <img src="images/brand1.webp">
-        </div>
-        <div>
-            <img src="images/brand3.jpg">
-        </div>
-        <div>
-            <img src="images/brand2.webp">
-        </div>
-        <div>
-            <img src="images/brand4.webp">
-        </div>
-        <div>
-            <img src="images/brand6.webp">
-        </div>
-        <div>
-            <img src="images/brand8.webp">
-        </div>
-        <div>
-            <img src="images/brand2.webp">
-        </div>
-        <div>
-            <img src="images/brand4.webp">
-        </div>
-
 
     </div>
 
 
 
+    <script>
+                $("#b1").click(function () {
+            $("#b2").show(500)
+        }
+        )
+        $("#b3").click(function () {
+            $("#b2").hide(500)
+        }
+        )
 
+
+ 
+    </script>
 </body>
 
 </html>

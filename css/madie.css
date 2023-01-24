@@ -1,181 +1,174 @@
-/* @media(max-width: 1537px) {
-    .headerfixed .logo {
-        height: auto;
-        width: 50%;
-        padding: 10px 50px;
-    }
-
-    img {
-        padding-top: 7px;
-        width: 130px;
-    }
-
-    .headerfixed .buy {
-        height: auto;
-        width: 50%;
-    }
-
-    .headerfixed .buy button {
-        padding: 8px 10px;
-    }
-
-    .loinginfo .menu2 {
-        display: none;
-    }
-}
-
-@media(max-width: 1200px) {
-    .headerfixed .logo {
-        height: auto;
-        width: 50%;
-        padding: 10px 50px;
-    }
-
-    img {
-        height: 30px;
-        width: 130px;
-    }
-
-    .headerfixed .buy {
-        height: auto;
-        width: 50%;
-    }
-
-    .headerfixed .buy button {
-        padding: 8px 10px;
-    }
-
-    .loinginfo .menu2 {
-        display: none;
-    }
-}
-
-@media(max-width: 1000px) {
-    .headerfixed .logo {
-        height: auto;
-        width: 50%;
-        padding: 10px 50px;
-
-    }
-
-    img {
-        height: 30px;
-        width: 130px;
-    }
-
-    .headerfixed .buy {
-        height: auto;
-        width: 50%;
-    }
-
-    .headerfixed .buy button {
-        padding: 8px 10px;
-    }
-
-    nav .menubar i {
-        display: block;
-    }
-
-    #click:checked~.menubar i:before {
-        content: "\f00d";
-    }
-
-    nav ul {
-        position: fixed;
-        top: 80px;
-        left: -150%;
-        background-color: #000;
+@media(max-width: 500px) {
+    .side_bar {
         height: 100vh;
-        width: 100%;
-        display: block;
-        text-align: center;
-        transition: all 0.5s ease;
-    }
-
-    #click:checked~ul {
-        left: 0;
-    }
-
-    nav ul li {
-        margin: 20px 0;
-    }
-
-    nav ul li a {
-        font-size: 20px;
-        display: block;
-        font-weight: 600;
-    }
-
-    nav ul li a:hover {
-        color: #000;
-    }
-
-
-}
-
-@media(max-width: 700px) {
-    .headerfixed .logo {
-        height: auto;
         width: 50%;
-        padding-top: 10px;
-    }
-
-    img {
-        height: 30px;
-        width: 130px;
-    }
-
-    .headerfixed .buy {
-        height: auto;
-        width: 50%;
-    }
-
-    .headerfixed .buy button {
-        padding: 8px 10px;
-    }
-
-    .loinginfo .info {
         display: none;
-    }
-
-    .loinginfo .menu2 {
-        display: block;
-    }
-}
-
-@media(max-width: 600px) {
-    .headerfixed .logo {
-        height: auto;
-        width: 50%;
-        padding-top: 10px;
-    }
-
-    img {
-        height: 30px;
-        width: 130px;
-    }
-
-    .headerfixed .buy {
-        height: auto;
-        width: 50%;
-    }
-
-    .headerfixed .buy button {
-        padding: 8px 10px;
     }
 
     .header {
-        width: 50%;
-        /* background-color: aquamarine; */
-    /* }
-    .navbar ul
-    {
         display: none;
     }
-    .navbar span
-    {
+
+    .inputbut {
+        display: none;
+    }
+
+    .logoimg {
+        width: 50%;
+    }
+
+    .logoimg img {
+        height: 25px;
+        margin-top: 10px;
+    }
+
+    .fontawesome i {
+        padding: 8px;
+    }
+
+    .font2 p {
+        padding: 8px;
+    }
+
+    .font2 span {
+        display: none;
+    }
+
+    .bars {
+        line-height: 80px;
+        margin-left: 40px;
         display: block;
     }
-   
 
-}  */
+    .bars i {
+        padding: 9px;
+    }
+
+    /* header end */
+    .nav {
+        display: none;
+    }
+
+    .ALLCATEGORIES {
+        width: 80%;
+    }
+
+    .ALLCATEGORIES i {
+        float: right;
+    }
+
+    /* navbar end */
+    .tagsconten ul li {
+        line-height: 20px;
+        margin-left: 7px;
+    }
+
+    .tagsconten ul li a {
+        font-size: 15px;
+    }
+
+    /* tagsconten end */
+    .carimg {
+        width: auto;
+    }
+
+    .carimg .p1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .carimg .p2 {
+        margin-top: 5px;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .carimg .p3 {
+        margin-top: 15px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .carimg button {
+        margin-top: 20px;
+        padding: 13px;
+        align-items: center;
+        margin-left: 140px;
+    }
+
+    /* carimg end */
+    .mazlay {
+        margin-top: 40px;
+    }
+
+    .mazlay h1 {
+        font-size: 20px;
+    }
+
+    .mazlay p {
+        padding-top: 10px;
+    }
+
+    /* mazlay end */
+    .bannerimg {
+        margin-top: 5px;
+        padding-left: 12px;
+    }
+
+    /* bannerimg end */
+    .category {
+        margin-top: 30px;
+        padding-left: 30px;
+    }
+
+    .category2 {
+        display: none;
+    }
+
+    /* category end */
+    .Products h2 span {
+        font-size: 25px;
+    }
+
+    /* Products end */
+    .productsconten {
+        padding: 20px 0;
+        height: auto;
+    }
+
+    .product-card {
+        width: 205px;
+        margin-left: 25px;
+    }
+
+    .product-card img {
+        width: 200px;
+    }
+
+    .product-card .new {
+        position: relative;
+        left: 160px;
+    }
+
+    .product-card1 {
+        display: none;
+    }
+
+    /* productsconten end */
+    .banner4-5 {
+        margin-top: 10px;
+    }
+
+    .banner4-5 .banner4 {
+        margin: 10px;
+    }
+
+    .banner4-5 .B {
+        height: 200px;
+        width: 100%;
+        background-color: aqua;
+    }
+
+    /* banner4-5 end*/
+
+}
