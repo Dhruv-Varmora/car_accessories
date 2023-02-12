@@ -153,6 +153,10 @@
     .product-card1 {
         display: none;
     }
+    .product-card .view button{
+        padding: 10px;
+        margin-left: -20px;
+    }
 
     /* productsconten end */
     .banner4-5 {
@@ -170,5 +174,90 @@
     }
 
     /* banner4-5 end*/
+
+    .ONSALE1 {
+        display: flex;
+        padding-left: 10px;
+        margin-top: 10px;
+    }
+
+    .ONSALE1 h3 span {
+        font-size: 20px;
+    }
+
+    .ONSALE1 p {
+        margin-top: 15px;
+        margin-left: 8px;
+        font-size: 15px;
+    }
+
+    /* ONSALE1 end*/
+
+    .pc1{
+        height: 600px;
+        width: auto;
+        margin-left: 0;
+        flex-direction: column;
+    }
+    .pimg1{
+       
+        width: 100% !important;
+       
+    }
+    .info1{
+        width: 100% !important;
+    }
+    /* ONSALE end */
+    .LATEST{
+       padding-left: 20px; 
+    }
+    .LATEST span {
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .LATEST .text {
+        margin-top: 0px;
+        margin-left: 5px;
+    }
+    /* LATEST end */
+    
+    .blog1 {
+        height: 600px;
+        width: 100%;
+        padding-left: 10px;
+    }
+    .blog1 img{
+        width: 100%;
+        height: 390px;
+    }
+    .blog1 .text1{
+        font-size: 20px;
+    }
+    .text1 br{
+        display: none;
+    }
+    /* blog end */
+    .CONTACTINFO {
+        width: 100%;
+    }
+    .INFORMATION{
+        width: 100%;
+        padding-left: 0;
+        margin-top: -10px;
+    }
+    .footerul{
+        margin-top: 20px;
+    }
+    .parts-3{
+        width: 100%; 
+    }
+    .payment{
+        width: 100%;
+        padding-left: 40px;
+    }
+    .made{
+        width: 100%;
+        padding-left: 60px;
+    }
 
 }
